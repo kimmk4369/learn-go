@@ -29,6 +29,12 @@ func canIDrink(age int) bool {
 	return true
 }
 
+type person struct {
+	name    string
+	age     int
+	favFood []string
+}
+
 //  시작점
 func main() {
 	//len, upperName := lenAndUpper("kmk")
@@ -40,7 +46,15 @@ func main() {
 
 	//fmt.Println(canIDrink(17))
 
-	names := []string{"kim", "mk", "00"}
-	names = append(names, "99")
-	fmt.Println(names)
+	//names := []string{"kim", "mk", "00"}
+	//names = append(names, "99")
+	//fmt.Println(names)
+
+	// map
+	//mk := map[string]string{"name": "kmk", "age": "12"}
+	//fmt.Println(mk)
+
+	favFood := []string{"kimchi", "ramen"}
+	kmk := person{name: "kmk", age: 12, favFood: favFood}
+	fmt.Println(kmk.name)
 }
