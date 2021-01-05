@@ -1,7 +1,7 @@
 package main
 
 import (
-	"accounts"
+	"./accounts"
 )
 
 //  시작점
