@@ -1,5 +1,5 @@
 # learn-go
 
-Web SCRAPPER (indeed.com)
+Web SCRAPPER (kr.indeed.com)
 
 - use go routines
