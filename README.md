@@ -1,3 +1,5 @@
 # learn-go
 
-learn Go
+Web SCRAPPER (indeed.com)
+
+- use go routines
